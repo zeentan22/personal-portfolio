@@ -1,0 +1,45 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  padding-top: 100px;
+  /* padding-bottom: 5000px; */
+  background-color: rgba(239, 226, 197, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin-right: 60px;
+  color: black;
+}
+/* 
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+} */

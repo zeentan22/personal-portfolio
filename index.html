@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles/introduction.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <ul id="item">
+          <li><a class = "head-item" href="#about"> About </a></li>
+          <li><a class = "head-item" href="#projects"> Projects </a></li>
+          <li><a class = "head-item" href="#contact"> Contact </a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="about" class="introduction-box">
+      <img class="profile-pic" src="images/samurai_sakura.png" />
+      <div>
+        <div class="about-header">About me</div>
+        <div class="about">
+          Hi! I am Ze En and I am currently an undergraduate student in NUS majoring in Business Analytics. 
+          I am interested in software development and data analytics. 
+          The Projects section features the projects that I have done. 
+          If you wish to know more about me,  you can find out more about me at my github or linkedin.
+          
+        </div>
+        <div class = "about-below">
+          Thank You for visiting my page!
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="projects-box">
+      <div class="projects-title">Projects</div>
+      <div class="all-projects">
+        <a href="https://github.com/zeentan22/orbital-project">
+        <div class="card">
+          <div>
+          <img class="project-pic" src="images/orbital.jpeg" />
+        </div>
+          <div class = "project-name" >Name of Project: !Procrastinate</div>
+          <div class = "project-description">
+            Our group use React Native Framework to develop this mobile scheduling application for students.
+          </div>
+        </div>
+      </a>
+      <a href=https://github.com/zeentan22/business_intelligence_customers_db>
+        <div class="card white-out">
+          <div>
+          <img class="project-pic" src="images/bi-dashboard.png" />
+        </div>
+          <div class = "project-name" >Name of Project: BI Dashboard</div>
+          <div class = "project-description">
+            I use sql to query the data and exporting the data into a csv file.
+             The csv file is then used in Tableau for data visualisation.
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/zeentan22/web_scraping_hdb_prices">
+        <div class="card">
+          <div>
+          <img class="project-pic" src="images/mllogo.jpg" />
+        </div>
+          <div class = "project-name" >Name of Project: Webscrape HDB pricings</div>
+          <div class = "project-description">
+            First part of this project is to scrape for HDB pricing and details from a website using bs4 and putting it into a file.
+
+            Second part of this project is to conduct data analysis using the details scraped from part 1 and running a linear regression on it
+
+          </div>
+        </div>
+      </a>
+      <a href="https://github.com/zeentan22/credit_default_prediction">
+        <div class="card">
+          <div>
+          <img class="project-pic" src="images/mllogo.jpg" />
+        </div>
+          <div class = "project-name" >Name of Project: Credit Default Prediction</div>
+          <div>Details about the project</div>
+          <div class = "project-description">
+            This is a machine learning project that use various models to predict whether a customer will default the next month.
+          </div>
+        </div>
+      </a>
+
+
+
+      </div>
+      </div>
+      <div id = "contact" class = "contact">
+        <div class = "find-me"> More about me here &#8594;</div>
+        <ul>
+          <li > <a class =  "contact-links" href = "https://github.com/zeentan22"> My github profile </a></li>
+          <li> <a class =  "contact-links" href = "https://www.linkedin.com/in/ze-en-tan-697b45229/"> Linkedin </a></li>
+        </ul>
+
+      </div>
+      
+      </div>
+      
+    </div>
+  </body>
+</html>

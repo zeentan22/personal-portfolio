@@ -1,0 +1,35 @@
+.introduction-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid; */
+
+  /* position: fixed; */
+}
+
+.profile-pic {
+  height: 300px;
+  border-radius: 150px;
+  margin-right: 70px;
+  margin-left: 150px;
+}
+
+.about-header {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-below,
+.about {
+  width: 700px;
+  font-size: 20px;
+}
+
+.about-below {
+  padding-top: 5px;
+}
