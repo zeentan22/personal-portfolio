@@ -24,16 +24,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    left: 10px;
-  }
   .nav {
     font-size: 20px;
   }
 }
 
 .head-item {
-  padding-left: 10px;
+  padding-left: 20px;
   border-left-style: solid;
   border-left-color: black;
   border-left-width: 1px;
