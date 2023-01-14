@@ -9,6 +9,7 @@ body {
   padding-top: 100px;
   /* padding-bottom: 5000px; */
   background-color: rgba(239, 226, 197, 0.8);
+  height: 100%;
 }
 
 html {
