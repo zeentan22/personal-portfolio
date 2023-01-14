@@ -19,3 +19,12 @@ div.contact {
   font-size: 20px;
   padding-left: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .find-me {
+    font-size: 20px;
+  }
+  .li-contact-link {
+    /* margin-bottom: 5px; */
+  }
+}

@@ -23,6 +23,12 @@
   font-size: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    font-size: 20px;
+  }
+}
+
 .head-item {
   padding-left: 10px;
   border-left-style: solid;

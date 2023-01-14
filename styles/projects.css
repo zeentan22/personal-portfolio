@@ -58,3 +58,13 @@
   padding-left: 5px;
   padding-right: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .all-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-description {
+    height: 250px;
+  }
+}

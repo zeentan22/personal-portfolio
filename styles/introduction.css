@@ -29,3 +29,18 @@
 .about-below {
   padding-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .profile-pic {
+    height: 15%;
+  }
+
+  .about-header {
+    height: 15%;
+  }
+
+  .about-below,
+  .about {
+    font-size: 15px;
+  }
+}
