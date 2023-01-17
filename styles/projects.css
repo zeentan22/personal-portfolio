@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 768px) {
   .all-projects {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .project-description {
